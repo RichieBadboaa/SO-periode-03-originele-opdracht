@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="B.png">
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Progammeertalen</title>
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo"><span>Byo</span>rno</a>
+
+        <nav>
+            <ul class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="Over mij.html">Over mij</a>
+            <a href="Progammeertalen.html">Progammeertalen</a>
+            <a href="Projecten.html">Projecten</a>
+            <a href="contact-formulier.html">Contact</a>
+            </ul>
+        </nav>
+
+        <a href="Pdf.html" class="CV">Mijn CV</a>
+    </header>
+
+    <section id= "Progammeertalen" class="Progammeertalen">
+
+        <div class="progammeertalen">
+            <img src="WhatsApp Image 2024-07-23 at 10.16.53_52a9a506.jpg" alt="">
+        </div>
+
+        <div class="Progammeertalen-content">
+
+            <h2 class="heading">Progammeertalen <span> die</span> ik beheerst</h2>
+            <h3>HTML <span> ,CSS</span> ,Javascript</h3>
+            <p>Ik heb HTML, CSS en Javascript geleerd. HTML staat voor Hypertext Markup Language en is de taal die wordt gebruikt om de structuur van een webpagina te definiëren. CSS staat voor Cascading Style Sheets en is de taal die wordt gebruikt om de opmaak van een webpagina te definiëren. Javascript is een scripttaal die wordt gebruikt om interactieve elementen op een webpagina te maken.</p>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="social">
+            <a href="https://www.tiktok.com/@richie_badboeey?is_from_webapp=1&sender_device=pc"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://www.instagram.com/c.r.a.z.y.b.y.o.r.n/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://discord.com/channels/1219690147763851264/1219690147763851266"><i class='bx bxl-discord-alt' ></i></a>
+            <a href="https://www.youtube.com/channel/UCqhQfYavAZZZJTMQXN86tZw"><i class='bx bxl-youtube' ></i></box-icon></a>
+        </div>
+    
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="Over mij.html">Over mij</a>
+            </li>
+            <li>
+                <a href="Progammeertalen.htm">Progammeertalen</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright © 2024 Byorno | All rights reserved"></p>
+        </footer>
+    
+</body>
+</html>
