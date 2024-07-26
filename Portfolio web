@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="B.png">
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo"><span>Byo</span>rno</a>
+
+        <nav>
+            <ul class="navbar">
+            <a href="Home.html" class="active">Portfolio</a>
+            <a href="Over mij.html">Over mij</a>
+            <a href="Progammeertalen.html">Progammeertalen</a>
+            <a href="Projecten.html">Projecten</a>
+            <a href="contact-formulier.html">Contact</a>
+            </ul>
+        </nav>
+
+        <a href="Pdf.html" class="CV">Mijn CV</a>
+    </header>
+    <section id="home"class="home">
+        <div class="home-content">
+        <h3>Hallo</h3>
+
+        <h1>Ik ben <span><br>Byorno</span> een NATIN-ICT student</h1>
+
+        <p>Welkom op mijn website! Hartelijk dank voor uw bezoek. Het betekent veel voor mij dat u de tijd neemt om mijn digitale thuis te verkennen. Hier vindt u een verzameling van mijn werk, ideeën en projecten. Ik hoop dat u geïnspireerd raakt en iets waardevols vindt. Voel u vrij om rond te kijken en neem gerust contact op als u vragen of opmerkingen heeft. Uw feedback is altijd welkom en wordt zeer gewaardeerd. Veel plezier op mijn website!</p>
+
+        <div class="btn-box">
+            <button href="contact-formulier.html" class="btn-a">Huur mij in</button>
+            <button href="Pdf.html" class="btn-b">Vaardigheden</button>
+
+        </div>
+    </div>
+    <div class="img-box">
+        <img src="Dikke lippen.jpg">
+    </div>
+</section>
+<section class="OverzichtPortfolio">
+
+
+</section>
+     <footer class="footer">
+
+    <div class="social">
+        <a href="https://www.tiktok.com/@richie_badboeey?is_from_webapp=1&sender_device=pc"><i class='bx bxl-tiktok'></i></a>
+        <a href="https://www.instagram.com/c.r.a.z.y.b.y.o.r.n/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://discord.com/channels/1219690147763851264/1219690147763851266"><i class='bx bxl-discord-alt' ></i></a>
+        <a href="https://www.youtube.com/channel/UCqhQfYavAZZZJTMQXN86tZw"><i class='bx bxl-youtube' ></i></box-icon></a>
+    </div>
+
+    <ul class="Listt">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="Over mij.html">Over mij</a>
+        </li>
+        <li>
+            <a href="Progammeertalen.html">Progammeertalen</a>
+        </li>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+    </ul>
+    <p class="copyright">Copyright © 2024 Byorno | All rights reserved"</p>
+    </footer>
+
+
+    
+</body>
+</html>
