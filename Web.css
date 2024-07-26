@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.808);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    font-style: italic;
+}
+.logo:hover{
+    color: rgb(0, 255, 179);
+    text-shadow: 0 0 25px rgb(0, 255, 179),
+                 0 0 25px rgb(0, 255, 179);
+    transform: scale(1.1); 
+}
+span{
+    color: rgb(0, 255, 179);
+}
+.nabar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: black;
+    box-shadow: 0 0 25px rgb(0, 255, 179);
+    display: flex;
+    flex-direction: colomn;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(0, 255, 179);
+    border-bottom: 3px solid rgb(115, 255, 0);
+}
+.CV{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.CV:hover{
+    background-color: rgb(136, 255, 0);
+    box-shadow: 0 0 25px rgb(81, 255, 0);
+    color: white;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(download\ \(5\).jpeg);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-a{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-b{
+    padding: 15px 28px;
+    background-color: rgb(102, 255, 0);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-b:hover{
+    background-color: white;
+    color: rgb(0, 255, 179);
+}
+.img-box{
+    width: 550px;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.img-box img:hover{
+    opacity: 0;
+}
+.img-box img.top{
+    opacity: 1;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 255, 179);
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 50px;
+}
+.Overmij{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+    gap: 10em;
+    background: url(White\ Star\ On\ Black\ Background.jpeg);
+}
+.Overmij-pic img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px rgb(72, 255, 0),
+                0 0 25px rgb(21, 255, 0);
+    border-radius: 50%;
+}
+.Biografie{
+    display: flex;
+    justify-self: center;
+    padding: 10em;
+    gap: 10em;
+    background: url(White\ Star\ On\ Black\ Background.jpeg);
+}
+.Biografie h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    top: 3px;
+}
+.Biografie p{
+    color: white;
+    font-size: 20px;
+}
+.Overmij-content h2{
+    text-align: left;
+    color: white;
+    font: 42px;
+    font-size: 1;
+
+}
+.Overmij-content h3{
+    font-size: 62px;
+    color: white;
+}
+.Overmij-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.Progammeertalen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+    gap: 10em;
+    background: url(download\ \(5\).jpeg);
+}
+.progammeertalen img{
+    position: relative;
+    width: 550px;
+    border-radius: 50%;
+}
+.Progammeertalen-content h2{
+    text-align: right;
+    color: black;
+    font: 42px;
+}
+.Progammeertalen-content h3{
+    font-size: 62px;
+    color: black;
+}
+.Progammeertalen-content p{
+    color: black;
+    font-size: 20px;
+    margin: 2em 0 3em;
+
+}
+.Projecten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+    gap: 10em;
+    background: url(White\ Star\ On\ Black\ Background.jpeg);
+}
+.Projecten img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px rgb(0, 255, 13),
+                0 0 25px rgb(51, 255, 0);
+    border-radius: 50%;
+}
+.Projecten img:hover{
+  padding: 0;
+}
+.Projecten-content h2{
+    text-align: right;
+    color: white;
+    font: 42px;
+}
+.Projecten-content h3{
+    font-size: 62px;
+    color: white;
+}
+.Projecten-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.contact-formulier{
+    background: url(download\ \(5\).jpeg);
+}
+.contact-formulier h1{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    background: url(download\ \(5\).jpeg);
+}
+.contact-formulier form{
+    max-width: 50em;
+    margin: 1em auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-formulier form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-formulier form .input-box input, .contact-formulier form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+.contact-formulier form .Knop{
+    border: none;
+    outline: none;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: .8rem;
+    padding: 1.5em;
+    font-size: 18px;
+}
+.contact-formulier form .Knop::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    left: 0;
+    top: 0;
+    border-radius: .8rem;
+}
+.contact-formulier form .Knop::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a,
+        #0aff99, #0aefff, #147df5, #580aff, #be0aff
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: .8rem;
+    opacity: 0;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.contact-formulier form .Knop:hover::before {
+    opacity: 1;  
+}
+.contact-formulier form .Knop:hover:after {
+    background: transparent;
+}
+.contact-formulier form .Knop:active {
+    color: #000;
+    font-weight: bold;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: url(White\ Star\ On\ Black\ Background.jpeg);
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(0, 255, 13);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: 0 0 25px rgb(0, 255, 13), 0 0 25px rgb(0, 255, 13);
+    transition: 0.3s ease;
+}
+.social{
+    text-align: center;
+}
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: rgb(0, 255, 13);
+    border: 2px solid rgb(0, 255, 13);
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid rgb(0, 255, 13);
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 12px;
+}
