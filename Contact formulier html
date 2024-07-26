@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="B.png">
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="Web.js">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Contact mij</title>
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo"><span>Byo</span>rno</a>
+
+        <nav>
+            <ul class="navbar">
+            <a href="Home.html" class="active">Portfolio</a>
+            <a href="Over mij.html">Over mij</a>
+            <a href="Progammeertalen.html">Progammeertalen</a>
+            <a href="Projecten.html">Projecten</a>
+            <a href="contact-formulier.html">Contact</a>
+            </ul>
+        </nav>
+
+        <a href="Pdf.html" class="CV">Mijn CV</a>
+    </header>
+    <section class="contact-formulier">
+        <div class="container">
+        <h1 class="Contact">Contact <span>Mij</span></h2>
+
+        <form>
+
+            <div class="input-box">
+                <input type="text" id="name"placeholder="Naam" required>
+                <input type="email" id="email" placeholder="Email id" required>
+                <input type="nummer" id="phone" placeholder="Telefoon nummer" required>
+                <input type="text" id="subject" placeholder="Onderwerp" required>
+                <textarea name="Bericht" id="" colls="30" rows="10" placeholder="Uw Bericht"></textarea>
+            
+                <button type="submit" class="Knop">Verzenden</button>
+            </div>
+        </form>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link rel="stylesheet" href="Web.js">
+    </section>
+    <footer class="footer">
+
+        <div class="social">
+            <a href="https://www.tiktok.com/@richie_badboeey?is_from_webapp=1&sender_device=pc"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://www.instagram.com/c.r.a.z.y.b.y.o.r.n/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://discord.com/channels/1219690147763851264/1219690147763851266"><i class='bx bxl-discord-alt' ></i></a>
+            <a href="https://www.youtube.com/channel/UCqhQfYavAZZZJTMQXN86tZw"><i class='bx bxl-youtube' ></i></box-icon></a>
+        </div>
+    
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="Over mij.html">Over mij</a>
+            </li>
+            <li>
+                <a href="Progammeertalen.html">Progammeertalen</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright © 2024 Byorno | All rights reserved"></p>
+        </footer>
+    
+</body>
+</html>
